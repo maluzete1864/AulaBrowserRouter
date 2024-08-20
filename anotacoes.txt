@@ -1,1 +1,1 @@
-colocar /home no localhost pq é o caminho/rota 
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
