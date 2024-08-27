@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './Home' 
 import Oferta from './Oferta'
 import Produto from './Produto'
-import {Carousel} from 'react-responsive carousel'; 
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -12,6 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/oferta" element={<Oferta/>}/>
+      <Route path="/produto" element={<Produto/>}/>
     </Routes>
     </BrowserRouter>
   </React.StrictMode>,
